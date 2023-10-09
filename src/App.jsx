@@ -1,8 +1,20 @@
+/* eslint-disable multiline-ternary */
+import { useState } from 'react'
+import Layout from './layout/Layout'
+import SearchPage from './pages/searchPage'
+import QrCodePage from './pages/qrCodePage'
+
 function App() {
+  const [url, setUrl] = useState('')
+
   return (
-    <>
-      <h1 className=''>Hola</h1>
-    </>
+    <Layout>
+      {url ? (
+        <QrCodePage url={url} />
+      ) : (
+        <SearchPage url={url} setUrl={setUrl} />
+      )}
+    </Layout>
   )
 }
 

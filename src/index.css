@@ -5,4 +5,16 @@
 
 body {
   font-family: 'Outfit', sans-serif;
+  background-color: #111729;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url('./assets/bg-illustration.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: calc(100% - 10%) center;
 }

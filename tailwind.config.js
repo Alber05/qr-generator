@@ -11,6 +11,9 @@ export default {
         customBlue: '#3662E3',
         customNavyBlue: '#111729',
         customGray: '#364153'
+      },
+      backgroundImage: {
+        'bg-illustration': "url('./assets/bg-illustration.svg')"
       }
     }
   },

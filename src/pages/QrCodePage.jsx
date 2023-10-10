@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import PropTypes from 'prop-types'
 import QRCode from 'react-qr-code'
 import Download from 'src/assets/download.svg'
-import Clip from ''src/assets/clip.svg'
+import Clip from 'src/assets/clip.svg'
 import clipboardCopy from 'clipboard-copy'
 
 export function QrCodePage({ url }) {

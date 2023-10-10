@@ -5,7 +5,7 @@ import Download from '../assets/download.svg'
 import Clip from '../assets/clip.svg'
 import clipboardCopy from 'clipboard-copy'
 
-function QrCodePage({ url }) {
+export function QrCodePage({ url }) {
   const qrCodeRef = useRef(null)
 
   const downloadQRCode = () => {
@@ -67,5 +67,3 @@ function QrCodePage({ url }) {
 QrCodePage.propTypes = {
   url: PropTypes.string.isRequired
 }
-
-export default QrCodePage

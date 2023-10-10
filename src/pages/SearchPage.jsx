@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import Logo from '../assets/logo-qr-generator.svg'
 
-function SearchPage({ setUrl }) {
+export function SearchPage({ setUrl }) {
   const [queryUrl, setQueryUrl] = useState('')
 
   const handleChange = (e) => {
@@ -39,5 +39,3 @@ function SearchPage({ setUrl }) {
 SearchPage.propTypes = {
   setUrl: PropTypes.func.isRequired
 }
-
-export default SearchPage

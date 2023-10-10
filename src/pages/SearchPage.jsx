@@ -19,13 +19,13 @@ export function SearchPage({ setUrl }) {
     <>
       <img src={Logo} alt='Qr generator logo' className='mb-8' />
       <form
-        className='w-[90%] max-w-[600px] h-[60px] flex items-center justify-between p-1 rounded-xl border-2 bg-customNavyBlue  border-customBlue text-customWhite'
+        className='w-[90%] max-w-[600px] h-[60px] flex items-center justify-between p-1 rounded-xl border-2 bg-[#030617]  border-customBlue text-customWhite'
         onSubmit={submitUrl}
       >
         <input
           type='text'
           placeholder='Enter an url'
-          className='w-3/4 bg-customNavyBlue outline-none p-1 px-4'
+          className='w-3/4 bg-[#030617] outline-none p-1 px-4'
           onChange={(e) => handleChange(e)}
         />
         <button type='submit' className='h-full w-1/4 bg-customBlue rounded-xl'>

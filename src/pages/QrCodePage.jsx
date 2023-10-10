@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import PropTypes from 'prop-types'
 import QRCode from 'react-qr-code'
-import Download from 'src/assets/download.svg'
+// import Download from 'src/assets/download.svg'
 import Clip from 'src/assets/clip.svg'
 import clipboardCopy from 'clipboard-copy'
 
@@ -50,7 +50,7 @@ export function QrCodePage({ url }) {
           onClick={downloadQRCode}
         >
           <span>Download</span>
-          <img src={Download} alt='' className='h-4' />
+          {/* <img src={Download} alt='' className='h-4' /> */}
         </button>
         <button
           className='flex items-center justify-center gap-2 bg-customBlue py-4 px-6 min-w-[150px] rounded-xl text-customWhite'

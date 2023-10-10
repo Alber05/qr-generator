@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import Logo from './src/assets/logo-qr-generator.svg'
+import Logo from '/src/assets/logo-qr-generator.svg'
 
 export function SearchPage({ setUrl }) {
   const [queryUrl, setQueryUrl] = useState('')
